@@ -8,3 +8,5 @@ int main(int argc, string argv[])
     // else print hello, world
     return 0;
 }
+int main(int argc,string argv[]){if(argc==2){printf("hello, %s\n",argv[1]);}else{printf("hello,
+world\n");}return 0;}
